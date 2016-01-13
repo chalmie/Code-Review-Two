@@ -73,11 +73,12 @@ body {
   border: 10px solid white;
 }
 
-/*#bg-img-one {
+#bg-img-one {
   background-image: url("http://thegraphicsfairy.com/wp-content/uploads/blogger/-_9Gnj4ucWGg/TkFeIpJgikI/AAAAAAAANrk/UVymbYk9WTE/s1600/swallow%2Bsilhouette%2Bvintage%2Bprintable%2Bgraphicsfairysm.jpg");
   background-repeat: no-repeat;
-  background-size: cover;
-}*/
+  background-size: auto 100%;
+	background-position: center center;
+}
 
 
 .bg-color-pink {
