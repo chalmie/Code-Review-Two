@@ -1,0 +1,40 @@
+html, body {
+	margin: 0;
+	padding: 0;
+}
+
+
+/* Header */
+.header {
+  height: 600px;
+  text-align: center;
+  background-image: url("http://st.depositphotos.com/2158511/2893/v/950/depositphotos_28931921-Travel-doodles.jpg");
+  background-repeat:no-repeat;
+  background-size:cover;
+  color: #61d1db;
+  text-shadow: 5px 5px black;
+}
+
+.header.container {
+  position: relative;
+  top: 200px;
+}
+
+.header h1 {
+  font-size: 150px;
+  line-height: 120px;
+  margin-top:150px;
+}
+
+@media (max-width:600px) {
+	.header h1 {
+		font-size: 90px;
+	}
+  .header p {
+    font-size: 60px;
+  }
+}
+
+.header p {
+  font-size: 80px;
+}
