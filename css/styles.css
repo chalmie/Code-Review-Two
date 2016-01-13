@@ -3,16 +3,26 @@ html, body {
 	padding: 0;
 }
 
+body {
+	font-weight: 100;
+}
+
+.container {
+	margin: 0 auto;
+	max-width: 940px;
+	padding: 0 10px;
+}
 
 /* Header */
 .header {
-  height: 600px;
+  height: 500px;
   text-align: center;
   background-image: url("http://st.depositphotos.com/2158511/2893/v/950/depositphotos_28931921-Travel-doodles.jpg");
   background-repeat:no-repeat;
   background-size:cover;
   color: #61d1db;
   text-shadow: 5px 5px black;
+  font-family: nanum brush script;
 }
 
 .header.container {
@@ -37,4 +47,9 @@ html, body {
 
 .header p {
   font-size: 80px;
+}
+
+/* Quiz */
+.container.quiz {
+  margin-top: 20px;
 }
