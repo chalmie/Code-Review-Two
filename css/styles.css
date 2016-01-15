@@ -126,8 +126,7 @@ body {
   background-image: url("http://www.vectorportal.com/img_novi/s-aircraft4_5243.jpg");
 }
 
-/* Results */
-
+/* Submit */
 
 .submit {
   text-align: center;
@@ -141,3 +140,5 @@ body {
 	color:#286520;
 	font-weight: bold;
 }
+
+/*Results*/
