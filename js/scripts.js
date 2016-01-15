@@ -27,3 +27,6 @@ $(function(){
       }
     });
 });
+
+
+// Improve by turning repetitive variable assignment into a loop.
