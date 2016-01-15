@@ -98,11 +98,32 @@ body {
 	color:#286520;
 }
 
+/*Quiz Pictures*/
+
+.pictures {
+	background-repeat: no-repeat;
+	background-size: auto 100%;
+	background-position: center center;
+}
+
 #bg-img-one {
   background-image: url("http://thegraphicsfairy.com/wp-content/uploads/blogger/-_9Gnj4ucWGg/TkFeIpJgikI/AAAAAAAANrk/UVymbYk9WTE/s1600/swallow%2Bsilhouette%2Bvintage%2Bprintable%2Bgraphicsfairysm.jpg");
-  background-repeat: no-repeat;
-  background-size: auto 100%;
-	background-position: center center;
+}
+
+#bg-img-two {
+  background-image: url("http://previews.123rf.com/images/spinyant/spinyant1401/spinyant140100016/25494600-Illustration-of-three-mountain-peaks-as-a-silhouette-Stock-Vector.jpg");
+}
+
+#bg-img-three {
+  background-image: url("http://previews.123rf.com/images/tinica/tinica1205/tinica120500037/13815675-Girls-and-boys-playing-volleyball-on-the-beach-between-the-palm-trees-silhouette-Stock-Vector.jpg");
+}
+
+#bg-img-four {
+  background-image: url("http://images.fineartamerica.com/images-medium-large-5/paris-city-skyline-silhouette-black-and-white-illustration-jpldesigns.jpg");
+}
+
+#bg-img-five {
+  background-image: url("http://www.vectorportal.com/img_novi/s-aircraft4_5243.jpg");
 }
 
 /* Results */
