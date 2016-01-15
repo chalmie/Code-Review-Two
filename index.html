@@ -29,15 +29,15 @@
         <div class="col-sm-6 bg-color-pink">
           <h2>Question 1</h2>
           <p>Would you rather:</p>
-          <form role="form">
+          <form role="form" class="personality">
             <div class="radio">
-              <label><input type="radio" name="optradio">Option 1</label>
+              <label><input type="radio" name="optradio" value="1">Option 1</label>
             </div>
             <div class="radio">
-              <label><input type="radio" name="optradio">Option 2</label>
+              <label><input type="radio" name="optradio" value="2">Option 2</label>
             </div>
             <div class="radio">
-              <label><input type="radio" name="optradio">Option 3</label>
+              <label><input type="radio" name="optradio" value="3">Option 3</label>
             </div>
           </form>
         </div>
@@ -53,17 +53,17 @@
         </div>
 
         <div class="col-sm-6 bg-color-blue">
-          <h2>Question 1</h2>
+          <h2>Question 2</h2>
           <p>Would you rather:</p>
-          <form role="form">
+          <form role="form" class="personality">
             <div class="radio">
-              <label><input type="radio" name="optradio">Option 1</label>
+              <label><input type="radio" name="optradio" value="1">Option 1</label>
             </div>
             <div class="radio">
-              <label><input type="radio" name="optradio">Option 2</label>
+              <label><input type="radio" name="optradio" value="2">Option 2</label>
             </div>
             <div class="radio">
-              <label><input type="radio" name="optradio">Option 3</label>
+              <label><input type="radio" name="optradio" value="3">Option 3</label>
             </div>
           </form>
         </div>
@@ -73,17 +73,17 @@
     <div class="container-fluid">
       <div class="row">
         <div class="col-sm-6 bg-color-green">
-          <h2>Question 1</h2>
+          <h2>Question 3</h2>
           <p>Would you rather:</p>
-          <form role="form">
+          <form role="form" class="personality">
             <div class="radio">
-              <label><input type="radio" name="optradio">Option 1</label>
+              <label><input type="radio" name="optradio" value="1">Option 1</label>
             </div>
             <div class="radio">
-              <label><input type="radio" name="optradio">Option 2</label>
+              <label><input type="radio" name="optradio" value="2">Option 2</label>
             </div>
             <div class="radio">
-              <label><input type="radio" name="optradio">Option 3</label>
+              <label><input type="radio" name="optradio" value="3">Option 3</label>
             </div>
           </form>
         </div>
@@ -99,17 +99,17 @@
         </div>
 
         <div class="col-sm-6 bg-color-pink">
-          <h2>Question 1</h2>
+          <h2>Question 4</h2>
           <p>Would you rather:</p>
-          <form role="form">
+          <form role="form" class="personality">
             <div class="radio">
-              <label><input type="radio" name="optradio">Option 1</label>
+              <label><input type="radio" name="optradio" value="1">Option 1</label>
             </div>
             <div class="radio">
-              <label><input type="radio" name="optradio">Option 2</label>
+              <label><input type="radio" name="optradio" value="2">Option 2</label>
             </div>
             <div class="radio">
-              <label><input type="radio" name="optradio">Option 3</label>
+              <label><input type="radio" name="optradio" value="3">Option 3</label>
             </div>
           </form>
         </div>
@@ -119,17 +119,17 @@
     <div class="container-fluid">
       <div class="row">
         <div class="col-sm-6 bg-color-blue">
-          <h2>Question 1</h2>
+          <h2>Question 5</h2>
           <p>Would you rather:</p>
-          <form role="form">
+          <form role="form" class="personality">
             <div class="radio">
-              <label><input type="radio" name="optradio">Option 1</label>
+              <label><input type="radio" name="optradio" value="1">Option 1</label>
             </div>
             <div class="radio">
-              <label><input type="radio" name="optradio">Option 2</label>
+              <label><input type="radio" name="optradio" value="2">Option 2</label>
             </div>
             <div class="radio">
-              <label><input type="radio" name="optradio">Option 3</label>
+              <label><input type="radio" name="optradio" value="3">Option 3</label>
             </div>
           </form>
         </div>
@@ -142,12 +142,12 @@
     <div class="submit">
       <div class="container">
         <h1>Click submit to see our recommendation!</h1>
-        <button type="submit" class="btn btn-lg">Submit!</button>
+        <button type="submit" class="btn btn-lg" id="submit-button">Submit!</button>
       </div>
     </div>
     <!-- Results -->
-    <div class="container results">
-      <div id="rec-one">
+    <div class="container">
+      <div class="hidden" id="rec-one">
         <h1>Recommendation One</h1>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
@@ -156,7 +156,7 @@
       </div>
 
 
-      <div id="rec-two">
+      <div class="hidden" id="rec-two">
         <h1>Recommendation Two</h1>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
@@ -164,7 +164,7 @@
 
       </div>
 
-      <div id="rec-three">
+      <div class="hidden" id="rec-three">
         <h1>Recommendation Three</h1>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
