@@ -64,6 +64,7 @@ body {
 .main p {
   font-size: 20px;
 }
+
 /* Quiz */
 
 .col-sm-6 {
@@ -71,6 +72,30 @@ body {
   border-radius: 25px;
   margin-bottom: 10px;
   border: 10px solid white;
+	font-size: 30px;
+	font-weight: bold;
+	line-height: 60px;
+}
+
+@media (max-width:600px) {
+	.col-sm-6 {
+		font-size: 25px;
+	}
+}
+
+.bg-color-pink {
+  background-color: #f8d6ff;
+	color:#664f7d;
+}
+
+.bg-color-blue {
+  background-color: #93e5f6;
+	color:#2976ae;
+}
+
+.bg-color-green {
+  background-color: #b2eaa4;
+	color:#286520;
 }
 
 #bg-img-one {
@@ -78,30 +103,6 @@ body {
   background-repeat: no-repeat;
   background-size: auto 100%;
 	background-position: center center;
-}
-
-
-.bg-color-pink {
-  background-color: #f8d6ff;
-	color:#664f7d;
-	font-size: 40px;
-	font-weight: bold;
-}
-
-.bg-color-blue {
-  background-color: #93e5f6;
-	color:#2976ae;
-	font-size: 40px;
-	font-weight: bold;
-}
-
-
-
-.bg-color-green {
-  background-color: #b2eaa4;
-	color:#286520;
-	font-size: 40px;
-	font-weight: bold;
 }
 
 /* Results */
