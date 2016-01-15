@@ -26,13 +26,16 @@ $(function(){
       var score = questionOne + questionTwo + questionThree + questionFour + questionFive;
 
       if (score >= 5 && score <= 8) {
-        alert("rec1");
+        $("#rec-one").siblings().addClass('hidden');
+        $("#rec-one").removeClass('hidden');
       } else if (score >= 9 && score <= 12) {
-        alert("rec2");
+        $("#rec-two").siblings().addClass('hidden');
+        $("#rec-two").removeClass('hidden');
       } else if (score >= 13 && score <= 15) {
-        alert("rec3");
+        $("#rec-three").siblings().addClass('hidden');
+        $("#rec-three").removeClass('hidden');
       } else {
-        alert("error");
+        alert("Looks like you missed a question!");
       }
 
 

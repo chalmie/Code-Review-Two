@@ -6,6 +6,9 @@ html, body {
 body {
 	font-weight: 100;
 }
+h2 {
+	text-decoration: underline;
+}
 
 .container {
 	margin: 0 auto;
@@ -32,7 +35,7 @@ body {
 }
 
 .header h1 {
-  font-size: 150px;
+  font-size: 180px;
   line-height: 120px;
   margin-top:150px;
 }
@@ -74,7 +77,7 @@ body {
   border: 10px solid white;
 	font-size: 30px;
 	font-weight: bold;
-	line-height: 60px;
+	line-height: 45px;
 }
 
 @media (max-width:600px) {
@@ -130,6 +133,7 @@ body {
 
 .submit {
   text-align: center;
+	margin-bottom: 50px;
 }
 .submit h1 {
   font-size: 30px;
