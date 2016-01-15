@@ -18,11 +18,13 @@
 
 $(function(){
     $("#submit-button").click(function() {
-      var questionOne = $("input[name=optradio1]:checked").val());
-      var questionTwo = $("input[name=optradio2]:checked").val());
-      var questionThree = $("input[name=optradio3]:checked").val());
-      var questionFour = $("input[name=optradio4]:checked").val());
-      var questionFive = $("input[name=optradio5]:checked").val());
+      var questionOne = parseInt($("input[name=optradio1]:checked").val(),10);
+      var questionTwo = parseInt($("input[name=optradio2]:checked").val(),10);
+      var questionThree = parseInt($("input[name=optradio3]:checked").val(),10);
+      var questionFour = parseInt($("input[name=optradio4]:checked").val(),10);
+      var questionFive = parseInt($("input[name=optradio5]:checked").val(),10);
       var score = questionOne + questionTwo + questionThree + questionFour + questionFive;
+
+      alert(score)
     });
 });
