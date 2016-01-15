@@ -25,6 +25,17 @@ $(function(){
       var questionFive = parseInt($("input[name=optradio5]:checked").val(),10);
       var score = questionOne + questionTwo + questionThree + questionFour + questionFive;
 
-      alert(score)
+      if (score >= 5 && score <= 8) {
+        alert("rec1");
+      } else if (score >= 9 && score <= 12) {
+        alert("rec2");
+      } else if (score >= 13 && score <= 15) {
+        alert("rec3");
+      } else {
+        alert("error");
+      }
+
+
+
     });
 });
